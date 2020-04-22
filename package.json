@@ -1,0 +1,31 @@
+{
+  "name": "Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -p 1336 build -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^1.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-svgo": "^2.1.1",
+    "gulp-imagemin": "^6.0.0",
+    "node-sass": "^4.13.1",
+    "pump": "^3.0.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  }
+}
